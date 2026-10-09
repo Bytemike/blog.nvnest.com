@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Kaldi"
 theme = "hextra"
 
-# Enable markup features required by Hextra (like search and code highlighting)
+# Enable required HTML rendering for Hextra shortcodes
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -11,20 +11,16 @@ theme = "hextra"
   [markup.highlight]
     noClasses = false
 
+# Hextra Parameters
 [params]
-  # Navbar search bar
-  search = true
-
-  # FlexSearch options
   [params.search]
     enable = true
     type = "flexsearch"
 
-  # Page header edit link
   [params.editURL]
     enable = false
 
-# Main Top Navigation Menu
+# Navigation Menu
 [[menu.main]]
   name = "Blog"
   pageRef = "/post"
