@@ -2,6 +2,8 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Kaldi"
 theme = "hextra"
+# The hextra theme lives in a git submodule at the repo root (../themes relative to this site directory)
+themesDir = "../themes"
 
 # Enable required HTML rendering for Hextra shortcodes
 [markup]
