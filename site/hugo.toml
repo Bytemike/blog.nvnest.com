@@ -1,12 +1,36 @@
-baseurl = "/"
+baseURL = "/"
 languageCode = "en-us"
-languageLang = "en"
 title = "Kaldi"
+theme = "hextra"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+# Enable markup features required by Hextra (like search and code highlighting)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
 
 [params]
-images = ["img/og-image.jpg"]
+  # Navbar search bar
+  search = true
+
+  # FlexSearch options
+  [params.search]
+    enable = true
+    type = "flexsearch"
+
+  # Page header edit link
+  [params.editURL]
+    enable = false
+
+# Main Top Navigation Menu
+[[menu.main]]
+  name = "Blog"
+  pageRef = "/post"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  pageRef = "/contact"
+  weight = 2
