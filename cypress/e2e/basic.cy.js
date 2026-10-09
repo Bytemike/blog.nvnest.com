@@ -22,13 +22,16 @@ describe("empty spec", () => {
   it("navigates to the blog page", () => {
     cy.get('a[href="/post"]').eq(0).click();
     cy.url().should("include", "/post");
-    cy.get("h1").contains(/Latest Stories/i);
+    cy.get("h1").contains("Blog");
   });
 });
 
 describe("validate blog", () => {
   it("should have only 3 blog posts by default", () => {
     cy.visit("/post");
-    cy.get("ul#blog-list li").should("have.length", 3);
+    cy.get("main h3").should("have.length", 3);
+    cy.contains("A beginners’ guide to brewing with Chemex");
+    cy.contains("Just in: small batch of Jamaican Blue Mountain in store next week");
+    cy.contains("Making sense of the SCAA’s new Flavor Wheel");
   });
 });

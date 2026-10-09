@@ -5,6 +5,8 @@ theme = "hextra"
 # The hextra theme lives in a git submodule at the repo root (../themes relative to this site directory)
 themesDir = "../themes"
 
+enableRobotsTXT = true
+
 # Enable required HTML rendering for Hextra shortcodes
 [markup]
   [markup.goldmark]
@@ -15,12 +17,44 @@ themesDir = "../themes"
 
 # Hextra Parameters
 [params]
+  description = "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too."
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = true
+    width = "normal"
+    [params.navbar.logo]
+      path = "img/logo.svg"
+
+  [params.theme]
+    default = "system"
+    displayToggle = true
+
+  [params.footer]
+    enable = true
+    displayCopyright = true
+    displayPoweredBy = false
+
   [params.search]
     enable = true
     type = "flexsearch"
 
-  [params.editURL]
-    enable = false
+  [params.blog]
+    [params.blog.list]
+      displayTags = true
+      sortBy = "date"
+      sortOrder = "desc"
+      pagerSize = 10
+    [params.blog.article]
+      displayPagination = true
+
+  [params.highlight]
+    [params.highlight.copy]
+      enable = true
+      display = "hover"
+
+  [params.page]
+    width = "normal"
 
 # Navigation Menu
 [[menu.main]]
@@ -29,6 +63,22 @@ themesDir = "../themes"
   weight = 1
 
 [[menu.main]]
-  name = "About"
-  pageRef = "/contact"
+  name = "Products"
+  pageRef = "/products"
   weight = 2
+
+[[menu.main]]
+  name = "Values"
+  pageRef = "/values"
+  weight = 3
+
+[[menu.main]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 4
+
+[[menu.main]]
+  name = "Search"
+  weight = 5
+  [menu.main.params]
+    type = "search"
