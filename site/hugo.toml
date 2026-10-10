@@ -1,34 +1,57 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Kaldi"
-theme = "hextra"
-# The hextra theme lives in a git submodule at the repo root (../themes relative to this site directory)
+theme = "paper"
+# Themes live in git submodules at the repo root (../themes relative to this site directory)
 themesDir = "../themes"
 
-# Enable required HTML rendering for Hextra shortcodes
+enableRobotsTXT = true
+enableInlineShortcodes = true
+
+# Sections listed on the home page blog roll (Paper reads site.Params.mainSections)
+mainSections = ["post"]
+
+# Enable required HTML rendering for Markdown content
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-  [markup.highlight]
-    noClasses = false
 
-# Hextra Parameters
+# Paper pagination
+[pagination]
+  pagerSize = 3
+
 [params]
-  [params.search]
-    enable = true
-    type = "flexsearch"
+  description = "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too."
+  color = "linen"
+  name = "Kaldi"
+  bio = "Great coffee with a conscience"
 
-  [params.editURL]
-    enable = false
+[taxonomies]
+  tag = "tags"
 
-# Navigation Menu
-[[menu.main]]
-  name = "Blog"
-  pageRef = "/post"
-  weight = 1
+# Paper navigation menu
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/post/"
+    weight = 10
 
-[[menu.main]]
-  name = "About"
-  pageRef = "/contact"
-  weight = 2
+  [[menu.main]]
+    identifier = "products"
+    name = "Products"
+    url = "/products/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "values"
+    name = "Values"
+    url = "/values/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
