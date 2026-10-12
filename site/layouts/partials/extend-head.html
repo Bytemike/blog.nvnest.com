@@ -1,0 +1,17 @@
+<!-- Force dark theme by default -->
+<script>
+  (function () {
+    var html = document.documentElement;
+    html.classList.add('dark');
+    try {
+      localStorage.setItem('dark', 'true');
+    } catch (e) {}
+    var metaTheme = document.querySelector('meta[name="theme-color"]');
+    if (metaTheme) {
+      metaTheme.setAttribute('content', 'rgb(0 0 0 / 85%)');
+    }
+    setTimeout(function () {
+      html.classList.remove('not-ready');
+    }, 10);
+  })();
+</script>
