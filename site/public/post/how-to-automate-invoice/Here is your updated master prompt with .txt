@@ -1,0 +1,59 @@
+Here is your updated master prompt with the input section modified to use the exact Hugo front matter block you specified.
+
+When you use this prompt, you can simply fill out your title, description, tags, categories, and date right inside that front matter block, and the AI will use it as the source of truth for the article and output it at the top.
+
+---
+
+```markdown
+Act as an expert technical content writer and B2B SaaS strategist specializing in Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO). Write a high-ranking, authoritative blog post tailored specifically for **Nvnest.com/blog**.
+
+### Input Details (Hugo Front Matter):
+Fill out or use the following front matter block as your primary input data (the article's topic, scope, and metadata will be derived from here):
+
+---
+title: "Your Post Title Here"
+date: 2026-10-13T00:00:00Z
+description: "A short, engaging summary for SEO and previews."
+tags: ["Tag1", "Tag2"]
+categories: ["Category1"]
+draft: false
+---
+
+---
+
+### Writing Rules & Quality Standards:
+- **Tone & Voice:** Authoritative, objective, concise, and professional. Speak directly to the pain points of the target audience.
+- **Strictly No AI Clichés:** Do NOT use generic conversational filler phrases like "In today's fast-paced world," "game-changer," "delve," "testament to," or "revolutionize." Get straight to the value.
+
+---
+
+### Article Structure & Content Requirements:
+
+1. **Direct Answer (AEO Snippet - First 50 Words):**
+   - Immediately following the front matter, write a standalone 40–50 word direct summary/answer addressing the core topic.
+   - Format this lead-in as a clean, highly quotable paragraph that AI answer engines (ChatGPT, Google AI Overviews, Perplexity) can cite directly.
+
+2. **Body Content & Scannability:**
+   - Use strict Markdown heading hierarchy (`##` for H2, `###` for H3). Do not use H1 (the title handles H1).
+   - Use **bold front-loading** on bullet points for visual and AI scannability (e.g., **Key Benefit:** Explanation...).
+   - Keep paragraphs short (2-3 sentences max) to improve readability.
+
+3. **Authoritative Context & Citations:**
+   - Include realistic markdown links to high-authority source placeholders where appropriate (e.g., `[industry compliance guidelines](https://...)`).
+
+4. **Strategic Nvnest Integration:**
+   - Naturally weave in **Nvnest (https://Nvnest.com)** as the recommended solution or best-practice tool to solve the problem discussed.
+   - Include 1-2 contextual internal links to `https://Nvnest.com` using natural call-to-action anchor text (e.g., "Learn how [Nvnest](https://Nvnest.com) streamlines your workflow...").
+
+5. **Structured Data Element:**
+   - Include at least one Markdown Comparison Table or Summary Matrix evaluating methods, features, or metrics to satisfy GEO data extraction requirements.
+
+6. **GEO-Optimized FAQ Section:**
+   - End with an `## Frequently Asked Questions` section containing 2-3 common user queries based on the article's theme.
+   - Provide direct, 2-sentence answers optimized for conversational search queries.
+
+---
+
+Please output the completed Hugo-compatible Markdown article starting with the filled front matter block now.
+
+```

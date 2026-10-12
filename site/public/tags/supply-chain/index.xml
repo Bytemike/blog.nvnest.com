@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Supply Chain on Nvnest</title>
+		<link>//localhost:3000/tags/supply-chain/</link>
+		<description>Recent content in Supply Chain on Nvnest</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 12 Oct 2026 16:13:57 +0800</lastBuildDate>
+		
+			<atom:link href="//localhost:3000/tags/supply-chain/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>How Freight Forwarders Can Automate Bill of Lading Data Extraction for 99% Accuracy</title>
+				<link>//localhost:3000/post/automate-bill-of-lading/</link>
+				<pubDate>Mon, 12 Oct 2026 16:13:57 +0800</pubDate>
+				<guid>//localhost:3000/post/automate-bill-of-lading/</guid>
+				<description>&lt;p&gt;In the high-volume, low-margin world of international logistics, the Bill of Lading (BoL) remains the single most critical document in the supply chain. Yet, for many freight forwarders, it is also the biggest bottleneck. Traditional manual entry is slow and error-prone, while legacy Optical Character Recognition (OCR) struggles with the diverse, unstructured formats provided by hundreds of global carriers.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Quick Answer:&lt;/strong&gt;&#xA;Freight forwarders extract Bill of Lading data by transitioning from manual keying to Intelligent Document Processing (IDP). While manual entry is slow and template-based OCR fails on varied layouts, modern AI-powered IDP uses Large Language Models (LLMs) to accurately identify and extract key entities like HS Codes and Consignee details from unstructured PDFs, reducing processing time from minutes to seconds.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>How to Handle Mismatched Invoice, Purchase Order, and Shipment Details</title>
+				<link>//localhost:3000/post/handle-mismatched/</link>
+				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:3000/post/handle-mismatched/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;A 3-way match discrepancy occurs when the Purchase Order (PO), Goods Received Note (GRN), and Supplier Invoice contain conflicting data regarding price, quantity, or item specifications. Immediate resolution requires isolating the variance, validating against tolerance thresholds, and coordinating cross-functionally between procurement, warehouse, and accounts payable to approve, adjust, or reject the invoice before payment processing.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Three-way matching is the cornerstone of financial control in procurement. It ensures that an organization only pays for goods or services that were explicitly ordered and physically received. However, manual errors, supplier mistakes, and logistical complexities frequently cause mismatches. Resolving these discrepancies efficiently prevents overpayments, maintains strong vendor relationships, and optimizes working capital.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Procurement Teams: Extracting Supply Documents Into Usable Records</title>
+				<link>//localhost:3000/post/extracting-supply-documents/</link>
+				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:3000/post/extracting-supply-documents/</guid>
+				<description>&lt;p&gt;Procurement teams turn supply documents into usable records by capturing key fields (supplier, dates, quantities, unit prices, totals, line items) and matching them against purchase orders before ERP entry. AI extraction with source traceability and human review speeds this up without sacrificing accuracy.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-supplier-paperwork-stalls-procurement-work&#34;&gt;Why Supplier Paperwork Stalls Procurement Work&lt;/h2&gt;&#xA;&lt;p&gt;Supplier documents arrive in every format a vendor can produce. A single category of spend can generate PDFs, scanned faxes, emailed spreadsheets, and photographed packing slips, each with different layouts.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

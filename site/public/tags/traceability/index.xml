@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Traceability on Nvnest</title>
+		<link>//localhost:3000/tags/traceability/</link>
+		<description>Recent content in Traceability on Nvnest</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="//localhost:3000/tags/traceability/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Click the Number, See the Source: How Traceability Works in Document Extraction</title>
+				<link>//localhost:3000/post/click-the-number/</link>
+				<pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:3000/post/click-the-number/</guid>
+				<description>&lt;p&gt;Traceability in document extraction links every value an AI pulls from an invoice or receipt to its exact page and position on the original file. Reviewers click a total, date, or line item and see the highlighted source. Verification takes seconds, not a manual re-read of the full document.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-extracted-numbers-need-a-paper-trail&#34;&gt;Why Extracted Numbers Need a Paper Trail&lt;/h2&gt;&#xA;&lt;p&gt;An extracted number is only as useful as your ability to confirm it. When a total of $4,812.50 flows into your accounting system without a visible origin, your team has two options: trust the tool or re-check the document by hand.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

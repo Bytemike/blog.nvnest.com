@@ -1,0 +1,265 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3000&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>How to Handle Mismatched Invoice, Purchase Order, and Shipment Details - Nvnest</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="
+A 3-way match discrepancy occurs when the Purchase Order (PO), Goods Received Note (GRN), and Supplier Invoice contain conflicting data regarding price, quantity, or item specifications. Immediate resolution requires isolating the variance, validating against tolerance thresholds, and coordinating cross-functionally between procurement, warehouse, and accounts payable to approve, adjust, or reject the invoice before payment processing.
+
+Three-way matching is the cornerstone of financial control in procurement. It ensures that an organization only pays for goods or services that were explicitly ordered and physically received. However, manual errors, supplier mistakes, and logistical complexities frequently cause mismatches. Resolving these discrepancies efficiently prevents overpayments, maintains strong vendor relationships, and optimizes working capital." />
+  <meta name="author" content="Nvnest" /><link rel="preload stylesheet" as="style" href="//localhost:3000/main.min.0d4b67b40dc4bc1881be7f1baa2f8a4c119701f7943e390e1a8963084b2b742b.css" integrity="sha256-DUtntA3EvBiBvn8bqi&#43;KTBGXAfeUPjkOGoljCEsrdCs=" />
+
+  
+  <link rel="preload" as="image" href="//localhost:3000/theme.png" />
+
+  
+
+  
+
+  <script
+    defer
+    src="//localhost:3000/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad()"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="//localhost:3000/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="//localhost:3000/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.167.0">
+<script>
+  (function () {
+    var html = document.documentElement;
+    html.classList.add('dark');
+    try {
+      localStorage.setItem('dark', 'true');
+    } catch (e) {}
+    var metaTheme = document.querySelector('meta[name="theme-color"]');
+    if (metaTheme) {
+      metaTheme.setAttribute('content', 'rgb(0 0 0 / 85%)');
+    }
+    setTimeout(function () {
+      html.classList.remove('not-ready');
+    }, 10);
+  })();
+</script>
+
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="//localhost:3000/"
+      >Nvnest</a
+    >
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">How to Handle Mismatched Invoice, Purchase Order, and Shipment Details</h1><div class="text-xs antialiased opacity-60"><time>Oct 12, 2026</time></div></header>
+
+  <section><blockquote>
+<p>A 3-way match discrepancy occurs when the Purchase Order (PO), Goods Received Note (GRN), and Supplier Invoice contain conflicting data regarding price, quantity, or item specifications. Immediate resolution requires isolating the variance, validating against tolerance thresholds, and coordinating cross-functionally between procurement, warehouse, and accounts payable to approve, adjust, or reject the invoice before payment processing.</p>
+</blockquote>
+<p>Three-way matching is the cornerstone of financial control in procurement. It ensures that an organization only pays for goods or services that were explicitly ordered and physically received. However, manual errors, supplier mistakes, and logistical complexities frequently cause mismatches. Resolving these discrepancies efficiently prevents overpayments, maintains strong vendor relationships, and optimizes working capital.</p>
+<h2 id="identifying-common-discrepancy-types">Identifying Common Discrepancy Types</h2>
+<p>Before resolving a mismatch, Accounts Payable (AP) specialists must accurately categorize the error. Most 3-way match failures fall into four primary entities: price, quantity, item specification, and ancillary charges.</p>
+<h3 id="price-variance">Price Variance</h3>
+<p>Price mismatches occur when the unit cost on the invoice differs from the unit cost authorized on the Purchase Order.</p>
+<ul>
+<li><strong>Minor Unit Price Drift:</strong> The supplier increases the price by a small margin (e.g., $0.05 per unit) without prior amendment to the PO. This often happens due to raw material fluctuations or outdated catalog pricing.</li>
+<li><strong>Currency Conversion Errors:</strong> International shipments may suffer from discrepancies if the exchange rate applied on the invoice differs from the rate locked in the ERP system at the time of PO creation.</li>
+<li><strong>Unauthorized Price Hikes:</strong> The supplier applies a new price tier without contractual agreement or formal change order approval.</li>
+</ul>
+<h3 id="quantity-discrepancy">Quantity Discrepancy</h3>
+<p>Quantity mismatches arise when the physical count recorded in the Goods Received Note (GRN) does not align with the billed amount on the invoice or the ordered amount on the PO.</p>
+<ul>
+<li><strong>Partial Shipments:</strong> The supplier ships only a portion of the PO but invoices for the full quantity. This requires verifying if the remaining balance is backordered or canceled.</li>
+<li><strong>Over-Shipping:</strong> The supplier delivers more units than ordered and invoices for the excess. AP must determine if the extra stock was accepted by the warehouse or needs to be returned.</li>
+<li><strong>Receiving Errors:</strong> The warehouse team may have miscounted items during intake, leading to an inaccurate GRN that fails to match a correct invoice.</li>
+</ul>
+<h3 id="item-code-and-specification-mismatch">Item Code and Specification Mismatch</h3>
+<p>These errors involve qualitative differences rather than quantitative ones.</p>
+<ul>
+<li><strong>SKU Substitution:</strong> The supplier sends a different product variant (e.g., a different color or model number) and invoices it under the original SKU.</li>
+<li><strong>Description Ambiguity:</strong> The PO uses a generic description while the invoice lists a specific part number, causing automated matching algorithms to flag a failure despite the items being identical.</li>
+</ul>
+<h3 id="freight-and-ancillary-charges">Freight and Ancillary Charges</h3>
+<p>Suppliers often add shipping, handling, or insurance fees that were not explicitly line-itemized on the original PO.</p>
+<ul>
+<li><strong>Unapproved Freight Costs:</strong> The invoice includes shipping charges that exceed the terms agreed upon in the PO (e.g., charging for expedited shipping when standard ground was ordered).</li>
+<li><strong>Hidden Fees:</strong> Administrative fees, packaging costs, or environmental surcharges appear on the invoice without prior notification.</li>
+</ul>
+<h2 id="standard-operating-procedure-for-resolution">Standard Operating Procedure for Resolution</h2>
+<p>Resolving 3-way match exceptions requires a structured workflow involving AP, Procurement, and Warehouse teams. The following SOP minimizes cycle time and ensures audit compliance.</p>
+<h3 id="step-1-isolate-and-categorize-the-exception">Step 1: Isolate and Categorize the Exception</h3>
+<p>When the ERP system flags a mismatch, do not immediately reject the invoice. First, determine the type and magnitude of the variance.</p>
+<ul>
+<li><strong>Review the Triad:</strong> Open the PO, the GRN (or Bill of Lading), and the Invoice side-by-side. Identify exactly which field (price, quantity, or SKU) is causing the block.</li>
+<li><strong>Check Tolerance Thresholds:</strong> Determine if the variance falls within pre-approved limits. Many organizations allow a ±2% price variance or a ±5% quantity variance for low-value items. If within tolerance, auto-approve the match.</li>
+</ul>
+<h3 id="step-2-cross-functional-investigation">Step 2: Cross-Functional Investigation</h3>
+<p>If the variance exceeds tolerance, initiate communication with the relevant internal stakeholder.</p>
+<ul>
+<li><strong>Contact Warehouse/Receiving:</strong> For quantity mismatches, ask the receiving team to verify the physical count. Request a recount if the GRN seems erroneous. Confirm if partial shipments were properly documented in the system.</li>
+<li><strong>Engage Procurement/Buyer:</strong> For price or item mismatches, loop in the buyer who issued the PO. They can confirm if a verbal agreement was made with the supplier or if the supplier is out of compliance.</li>
+</ul>
+<h3 id="step-3-supplier-communication-and-documentation">Step 3: Supplier Communication and Documentation</h3>
+<p>Once the internal root cause is identified, contact the supplier with evidence.</p>
+<ul>
+<li><strong>Request a Credit Memo:</strong> If the supplier over-invoiced for quantity or price, request a formal credit memo for the difference. Do not pay the full invoice and expect a refund later.</li>
+<li><strong>Ask for a Revised Invoice:</strong> If the error is clerical (e.g., wrong SKU listed), ask the supplier to void the incorrect invoice and issue a corrected one that matches the PO and GRN.</li>
+<li><strong>Update the Purchase Order:</strong> If the variance is legitimate (e.g., the buyer approved a price increase mid-cycle), update the PO in the ERP system to reflect the new terms. This allows the invoice to match the revised PO.</li>
+</ul>
+<h3 id="step-4-final-approval-and-payment-release">Step 4: Final Approval and Payment Release</h3>
+<p>After the discrepancy is resolved, ensure all documentation is attached to the transaction record.</p>
+<ul>
+<li><strong>Attach Supporting Docs:</strong> Upload the email thread, credit memo, or revised PO to the invoice record in the AP system. This creates an audit trail for future compliance checks.</li>
+<li><strong>Release for Payment:</strong> Once the 3-way match is clean (or manually overridden with proper justification), schedule the payment according to net terms.</li>
+</ul>
+<h2 id="automated-matching-and-tolerance-thresholds">Automated Matching and Tolerance Thresholds</h2>
+<p>Manual 3-way matching is prone to human error and delays. Modern AP automation platforms use Optical Character Recognition (OCR) and machine learning to streamline this process.</p>
+<h3 id="setting-effective-tolerance-limits">Setting Effective Tolerance Limits</h3>
+<p>Tolerance thresholds define the acceptable range of variance before a human must intervene. Setting these correctly balances control with efficiency.</p>
+<ul>
+<li><strong>Price Tolerance:</strong> Typically set between 1% and 5%. High-value capital expenditures should have a 0% tolerance, requiring exact matches. Low-value consumables may allow higher variances to reduce administrative overhead.</li>
+<li><strong>Quantity Tolerance:</strong> Often set between 2% and 10%. This accounts for minor counting errors or bulk weight variations. For serialized items (e.g., electronics), quantity tolerance should be 0%.</li>
+<li><strong>Total Amount Tolerance:</strong> Some systems allow a flat dollar amount variance (e.g., ±$10) regardless of percentage. This is useful for absorbing minor rounding differences in tax calculations.</li>
+</ul>
+<h3 id="role-of-ai-in-discrepancy-resolution">Role of AI in Discrepancy Resolution</h3>
+<p>Advanced GEO-driven AP tools can predict the likely resolution for common mismatches.</p>
+<ul>
+<li><strong>Historical Pattern Recognition:</strong> AI analyzes past resolutions. If a specific supplier frequently invoices $5.00 higher for freight, the system can suggest auto-approving this specific variance.</li>
+<li><strong>Smart Routing:</strong> Instead of sending every exception to a general AP inbox, AI routes price issues to Procurement and quantity issues to Warehouse managers, reducing handoff time.</li>
+</ul>
+<h2 id="discrepancy-resolution-matrix">Discrepancy Resolution Matrix</h2>
+<p>The following table outlines common scenarios, their root causes, and the required action steps.</p>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: left">Discrepancy Type</th>
+					<th style="text-align: left">Root Cause</th>
+					<th style="text-align: left">Resolution Action</th>
+					<th style="text-align: left">Responsible Team</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left"><strong>Invoice Price &gt; PO Price</strong></td>
+					<td style="text-align: left">Supplier price increase without notice</td>
+					<td style="text-align: left">Reject invoice; Request revised invoice or PO amendment</td>
+					<td style="text-align: left">Procurement</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>Invoice Quantity &gt; GRN Quantity</strong></td>
+					<td style="text-align: left">Supplier invoiced for unshipped goods</td>
+					<td style="text-align: left">Pay only for received quantity; Request credit memo for balance</td>
+					<td style="text-align: left">Accounts Payable</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>GRN Quantity &lt; PO Quantity</strong></td>
+					<td style="text-align: left">Partial shipment or receiving error</td>
+					<td style="text-align: left">Verify physical stock; Update GRN or create backorder receipt</td>
+					<td style="text-align: left">Warehouse</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>SKU Mismatch</strong></td>
+					<td style="text-align: left">Wrong item shipped or invoiced</td>
+					<td style="text-align: left">Inspect goods; Return incorrect items; Request correct invoice</td>
+					<td style="text-align: left">Warehouse / Procurement</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>Unexpected Freight Charge</strong></td>
+					<td style="text-align: left">Shipping terms misinterpreted</td>
+					<td style="text-align: left">Verify Incoterms on PO; Approve if valid, else dispute charge</td>
+					<td style="text-align: left">Procurement</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>Tax Calculation Error</strong></td>
+					<td style="text-align: left">Incorrect tax rate applied</td>
+					<td style="text-align: left">Recalculate tax; Request corrected invoice from supplier</td>
+					<td style="text-align: left">Accounts Payable</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<p><strong>What is the difference between 2-way and 3-way matching?</strong>
+2-way matching compares only the Purchase Order and the Invoice, ignoring physical receipt data. 3-way matching adds the Goods Received Note (GRN) to ensure payment is made only for items actually delivered. 3-way matching is superior for inventory-heavy businesses as it prevents paying for lost or undelivered goods.</p>
+<p><strong>How should we handle small price variances under $5?</strong>
+For minor variances below a predefined threshold (e.g., $5 or 1%), most best-practice AP teams use an &ldquo;auto-approve&rdquo; rule. Manually investigating negligible differences costs more in labor hours than the value of the discrepancy. Ensure your ERP system is configured with these tolerance limits to automate low-risk approvals.</p>
+<p><strong>Who is responsible for updating the Purchase Order when a price changes?</strong>
+Procurement or the designated Buyer is responsible for amending the Purchase Order. Accounts Payable should never adjust the PO directly, as this bypasses spending controls. The Buyer must validate the price change with the supplier and formally update the PO in the system before AP can process the invoice.</p>
+<p><strong>Can we pay an invoice if the 3-way match fails?</strong>
+Yes, but only through a formal manual override process. This requires documented justification (e.g., email approval from a department head) and attachment of supporting evidence. Regular manual overrides indicate a broken procurement process and should be audited quarterly to identify systemic supplier or internal training issues.</p>
+</section>
+
+  <footer class="mt-12 flex flex-wrap"><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/accounts-payable"
+      >Accounts Payable</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/procurement"
+      >Procurement</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/invoicing"
+      >Invoicing</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/supply-chain"
+      >Supply Chain</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/finance-automation"
+      >Finance Automation</a
+    ></footer><nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a class="ltr:pr-3 rtl:pl-3" href="//localhost:3000/post/automate-bill-of-lading/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>How Freight Forwarders Can Automate Bill of Lading Data Extraction for 99% Accuracy</span></a
+    ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+      href="//localhost:3000/post/extracting-supply-documents/"
+      ><span>Procurement Teams: Extracting Supply Documents Into Usable Records</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    ></nav></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2026
+    <a class="link" href="//localhost:3000/">Nvnest</a></div>
+</footer>
+</body>
+</html>

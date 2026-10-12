@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Invoicing on Nvnest</title>
+		<link>//localhost:3000/tags/invoicing/</link>
+		<description>Recent content in Invoicing on Nvnest</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="//localhost:3000/tags/invoicing/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>How to Handle Mismatched Invoice, Purchase Order, and Shipment Details</title>
+				<link>//localhost:3000/post/handle-mismatched/</link>
+				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:3000/post/handle-mismatched/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;A 3-way match discrepancy occurs when the Purchase Order (PO), Goods Received Note (GRN), and Supplier Invoice contain conflicting data regarding price, quantity, or item specifications. Immediate resolution requires isolating the variance, validating against tolerance thresholds, and coordinating cross-functionally between procurement, warehouse, and accounts payable to approve, adjust, or reject the invoice before payment processing.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Three-way matching is the cornerstone of financial control in procurement. It ensures that an organization only pays for goods or services that were explicitly ordered and physically received. However, manual errors, supplier mistakes, and logistical complexities frequently cause mismatches. Resolving these discrepancies efficiently prevents overpayments, maintains strong vendor relationships, and optimizes working capital.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

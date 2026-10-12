@@ -1,0 +1,219 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3000&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Click the Number, See the Source: How Traceability Works in Document Extraction - Nvnest</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="Traceability in document extraction links every value an AI pulls from an invoice or receipt to its exact page and position on the original file. Reviewers click a total, date, or line item and see the highlighted source. Verification takes seconds, not a manual re-read of the full document.
+Why Extracted Numbers Need a Paper Trail
+An extracted number is only as useful as your ability to confirm it. When a total of $4,812.50 flows into your accounting system without a visible origin, your team has two options: trust the tool or re-check the document by hand." />
+  <meta name="author" content="Nvnest" /><link rel="preload stylesheet" as="style" href="//localhost:3000/main.min.0d4b67b40dc4bc1881be7f1baa2f8a4c119701f7943e390e1a8963084b2b742b.css" integrity="sha256-DUtntA3EvBiBvn8bqi&#43;KTBGXAfeUPjkOGoljCEsrdCs=" />
+
+  
+  <link rel="preload" as="image" href="//localhost:3000/theme.png" />
+
+  
+
+  
+
+  <script
+    defer
+    src="//localhost:3000/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad()"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="//localhost:3000/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="//localhost:3000/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.167.0">
+<script>
+  (function () {
+    var html = document.documentElement;
+    html.classList.add('dark');
+    try {
+      localStorage.setItem('dark', 'true');
+    } catch (e) {}
+    var metaTheme = document.querySelector('meta[name="theme-color"]');
+    if (metaTheme) {
+      metaTheme.setAttribute('content', 'rgb(0 0 0 / 85%)');
+    }
+    setTimeout(function () {
+      html.classList.remove('not-ready');
+    }, 10);
+  })();
+</script>
+
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="//localhost:3000/"
+      >Nvnest</a
+    >
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">Click the Number, See the Source: How Traceability Works in Document Extraction</h1><div class="text-xs antialiased opacity-60"><time>Oct 5, 2026</time></div></header>
+
+  <section><p>Traceability in document extraction links every value an AI pulls from an invoice or receipt to its exact page and position on the original file. Reviewers click a total, date, or line item and see the highlighted source. Verification takes seconds, not a manual re-read of the full document.</p>
+<h2 id="why-extracted-numbers-need-a-paper-trail">Why Extracted Numbers Need a Paper Trail</h2>
+<p>An extracted number is only as useful as your ability to confirm it. When a total of $4,812.50 flows into your accounting system without a visible origin, your team has two options: trust the tool or re-check the document by hand.</p>
+<p>Neither option scales. Traceability removes the trade-off by keeping the proof attached to the data.</p>
+<p><strong>Audit readiness:</strong> Auditors ask where a figure came from. A linked source answers that question in one click.</p>
+<p><strong>Faster exception handling:</strong> Staff resolve flagged fields by checking the highlighted region, not by searching the full PDF.</p>
+<p><strong>Accountability:</strong> Each approved value has a record of who verified it and against which source.</p>
+<h2 id="how-traceability-works-under-the-hood">How Traceability Works Under the Hood</h2>
+<p>Traceability depends on three linked steps. Each step must preserve the connection between the extracted value and the document it came from.</p>
+<h3 id="step-1-capture-position-during-extraction">Step 1: Capture Position During Extraction</h3>
+<p>During extraction, the system records where each piece of text sits on the page. This includes the page number and the bounding box, which is the coordinate area that surrounds the value.</p>
+<p>Position data is captured at the moment of reading, not reconstructed afterward. Reconstructing positions later introduces mismatches, especially on scanned or skewed documents.</p>
+<h3 id="step-2-bind-each-value-to-a-source-reference">Step 2: Bind Each Value to a Source Reference</h3>
+<p>Each extracted field is stored as a record with three components:</p>
+<ul>
+<li><strong>The value:</strong> For example, <code>invoice_total = 4812.50</code></li>
+<li><strong>The location:</strong> Page number and coordinates, such as page 2, x/y bounds on the page</li>
+<li><strong>The source text:</strong> The raw characters as they appeared, before normalization</li>
+</ul>
+<p>Keeping the raw text matters. If the document reads &ldquo;4,812.50&rdquo; and the system stores &ldquo;4812.5,&rdquo; a reviewer can still see the original format and catch parsing errors.</p>
+<h3 id="step-3-render-the-highlight-in-review">Step 3: Render the Highlight in Review</h3>
+<p>When a reviewer selects a field, the interface draws the bounding box over the rendered page. The reviewer compares the highlighted area against the stored value and approves or corrects it.</p>
+<p>This step closes the loop. The reviewer confirms the value against the document itself, not against the tool&rsquo;s summary of the document.</p>
+<h2 id="traceability-compared-with-other-verification-methods">Traceability Compared With Other Verification Methods</h2>
+<p>The table below compares common approaches to validating extracted data. The ratings reflect typical operational trade-offs rather than benchmarked results.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Method</th>
+					<th>Shows Where the Value Came From</th>
+					<th>Time to Verify One Field</th>
+					<th>Audit Evidence Produced</th>
+					<th>Handles Ambiguous Fields</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Manual re-keying</td>
+					<td>No (the user retypes from memory of the page)</td>
+					<td>High</td>
+					<td>Low (no link to source)</td>
+					<td>Depends on the reviewer</td>
+			</tr>
+			<tr>
+					<td>Black-box AI extraction</td>
+					<td>No</td>
+					<td>Low, but unverifiable</td>
+					<td>None</td>
+					<td>No flagging</td>
+			</tr>
+			<tr>
+					<td>Confidence scores only</td>
+					<td>No (score indicates likelihood, not location)</td>
+					<td>Medium</td>
+					<td>Low</td>
+					<td>Partial</td>
+			</tr>
+			<tr>
+					<td>Traceable extraction with human review (<a href="https://Nvnest.com">Nvnest</a>)</td>
+					<td>Yes, page and position</td>
+					<td>Low</td>
+					<td>High (value-to-source record)</td>
+					<td>Flags for reviewer decision</td>
+			</tr>
+	</tbody>
+</table>
+<p>Confidence scores are useful for prioritizing review. They do not tell a reviewer where to look, which is why they work best alongside source links.</p>
+<h2 id="what-a-traceable-workflow-must-include">What a Traceable Workflow Must Include</h2>
+<p>Not every tool that claims source references provides usable traceability. Evaluate these requirements before adopting a system:</p>
+<ul>
+<li><strong>Field-level links:</strong> Every extracted value links to its own location, not just the document as a whole.</li>
+<li><strong>Page-accurate rendering:</strong> Highlights align with the page as viewed, including rotated or scanned pages.</li>
+<li><strong>Raw text retention:</strong> The original characters are preserved alongside the normalized value.</li>
+<li><strong>Review logging:</strong> Approvals and corrections are recorded with a timestamp and user identity.</li>
+<li><strong>Export integrity:</strong> Source references remain attached when data moves into downstream systems.</li>
+</ul>
+<p>Retention and documentation requirements vary by jurisdiction and industry. Confirm your obligations against <a href="https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping">official record-keeping guidance</a> and your internal audit policy.</p>
+<h2 id="how-nvnest-applies-click-to-source-verification">How Nvnest Applies Click-to-Source Verification</h2>
+<p><a href="https://Nvnest.com">Nvnest</a> is an AI-powered document processing tool that converts invoices, receipts, and supply documents into structured data. Its traceability layer links each extracted total, date, and line item to its exact page and visual position on the original file.</p>
+<p>When the system encounters ambiguous data, such as two conflicting dates on one invoice, it flags the field instead of selecting one silently. The reviewer clicks the value, sees both candidate locations on the page, and approves the correct one. Verified data then exports to your ERP, CRM, or accounting software, with sensitive financial information kept locally protected.</p>
+<p>If your team spends hours re-checking extracted figures, <a href="https://Nvnest.com">see how Nvnest&rsquo;s source-linked review</a> reduces verification to a single click per field.</p>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h3 id="what-does-traceability-mean-in-document-extraction">What does traceability mean in document extraction?</h3>
+<p>Traceability means every value an AI extracts is stored with its page number, position, and original text. A reviewer can select any field and see exactly where it appeared on the source document. This allows verification without re-reading the full file.</p>
+<h3 id="how-is-traceability-different-from-an-ai-confidence-score">How is traceability different from an AI confidence score?</h3>
+<p>A confidence score estimates how likely the extraction is correct, but it does not show where the value came from. Traceability shows the exact location on the document so a human can confirm the value directly. The two work best together: scores prioritize which fields to review, and source links show how to verify them.</p>
+<h3 id="does-traceability-help-with-audits">Does traceability help with audits?</h3>
+<p>Yes, traceability produces a record that links each approved value to its source document and reviewer. Auditors can follow any figure from the accounting system back to the original invoice. Confirm your specific retention and documentation obligations with your compliance team.</p>
+</section>
+
+  <footer class="mt-12 flex flex-wrap"><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/document-extraction"
+      >Document Extraction</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/traceability"
+      >Traceability</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/invoice-processing"
+      >Invoice Processing</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/ai-verification"
+      >AI Verification</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/accounts-payable"
+      >Accounts Payable</a
+    ></footer><nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a class="ltr:pr-3 rtl:pl-3" href="//localhost:3000/post/turning-supplier-invoices-into-clean-data/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>Turning Supplier Invoices Into Clean Data in Minutes: An End-to-End Workflow for Finance Teams</span></a
+    ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+      href="//localhost:3000/post/ap-team-should-verify-data/"
+      ><span>Why Your AP Team Should Verify Data, Not Just Trust It</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    ></nav></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2026
+    <a class="link" href="//localhost:3000/">Nvnest</a></div>
+</footer>
+</body>
+</html>

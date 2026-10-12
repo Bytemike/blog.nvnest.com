@@ -2,27 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:3000/post/brewing-chemex/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
+    <loc>//localhost:3000/</loc>
+    <lastmod>2026-10-12T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:3000/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
+    <loc>//localhost:3000/tags/data-extraction/</loc>
+    <lastmod>2026-10-12T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:3000/post/jamaica-blue/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
+    <loc>//localhost:3000/tags/financial-compliance/</loc>
+    <lastmod>2026-10-12T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:3000/post/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
+    <loc>//localhost:3000/post/how-to-automate-invoice/</loc>
+    <lastmod>2026-10-12T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:3000/post/making-sense/</loc>
-    <lastmod>2016-12-17T15:04:10+00:00</lastmod>
+    <loc>//localhost:3000/tags/invoice-automation/</loc>
+    <lastmod>2026-10-12T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:3000/contact/</loc>
+    <loc>//localhost:3000/post/</loc>
+    <lastmod>2026-10-12T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:3000/products/</loc>
+    <loc>//localhost:3000/tags/</loc>
+    <lastmod>2026-10-12T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:3000/tags/</loc>
+    <loc>//localhost:3000/tags/ai/</loc>
+    <lastmod>2026-10-12T16:13:57+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:3000/values/</loc>
+    <loc>//localhost:3000/tags/automation/</loc>
+    <lastmod>2026-10-12T16:13:57+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/post/automate-bill-of-lading/</loc>
+    <lastmod>2026-10-12T16:13:57+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/logistics/</loc>
+    <lastmod>2026-10-12T16:13:57+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/supply-chain/</loc>
+    <lastmod>2026-10-12T16:13:57+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/accounts-payable/</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/data-accuracy/</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/document-extraction/</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/finance-automation/</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/post/handle-mismatched/</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/invoicing/</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/nvnest/</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/procurement/</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/post/extracting-supply-documents/</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/post/most-reliable-way/</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/document-processing/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/financial-automation/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/invoice-processing/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/post/turning-supplier-invoices-into-clean-data/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/ai-verification/</loc>
+    <lastmod>2026-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/post/click-the-number/</loc>
+    <lastmod>2026-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/traceability/</loc>
+    <lastmod>2026-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/ai-document-processing/</loc>
+    <lastmod>2026-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/data-verification/</loc>
+    <lastmod>2026-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/post/ap-team-should-verify-data/</loc>
+    <lastmod>2026-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/document-automation/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/post/extract-invoice-total/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/data-validation/</loc>
+    <lastmod>2026-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/post/handling-conflicting-dates/</loc>
+    <lastmod>2026-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/tags/ap-automation/</loc>
+    <lastmod>2025-05-15T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:3000/post/cut-invoice-processing/</loc>
+    <lastmod>2025-05-15T08:00:00+00:00</lastmod>
   </url>
 </urlset>

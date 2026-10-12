@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Data Accuracy on Nvnest</title>
+		<link>//localhost:3000/tags/data-accuracy/</link>
+		<description>Recent content in Data Accuracy on Nvnest</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="//localhost:3000/tags/data-accuracy/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Procurement Teams: Extracting Supply Documents Into Usable Records</title>
+				<link>//localhost:3000/post/extracting-supply-documents/</link>
+				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:3000/post/extracting-supply-documents/</guid>
+				<description>&lt;p&gt;Procurement teams turn supply documents into usable records by capturing key fields (supplier, dates, quantities, unit prices, totals, line items) and matching them against purchase orders before ERP entry. AI extraction with source traceability and human review speeds this up without sacrificing accuracy.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-supplier-paperwork-stalls-procurement-work&#34;&gt;Why Supplier Paperwork Stalls Procurement Work&lt;/h2&gt;&#xA;&lt;p&gt;Supplier documents arrive in every format a vendor can produce. A single category of spend can generate PDFs, scanned faxes, emailed spreadsheets, and photographed packing slips, each with different layouts.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

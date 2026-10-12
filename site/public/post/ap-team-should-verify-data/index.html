@@ -1,0 +1,218 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3000&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Why Your AP Team Should Verify Data, Not Just Trust It - Nvnest</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="Unverified AI extraction exposes AP teams to duplicate payments, wrong amounts, and fraud. Verification is fastest when every extracted field links to its exact location on the source document, letting reviewers confirm values in seconds. Nvnest provides this source traceability and routes ambiguous fields to human review.
+Why Accuracy Errors in AP Are Expensive
+Accounts payable errors rarely stay small. A misread decimal or a wrong vendor ID moves money to the wrong place, and recovering it takes far more effort than catching it at intake." />
+  <meta name="author" content="Nvnest" /><link rel="preload stylesheet" as="style" href="//localhost:3000/main.min.0d4b67b40dc4bc1881be7f1baa2f8a4c119701f7943e390e1a8963084b2b742b.css" integrity="sha256-DUtntA3EvBiBvn8bqi&#43;KTBGXAfeUPjkOGoljCEsrdCs=" />
+
+  
+  <link rel="preload" as="image" href="//localhost:3000/theme.png" />
+
+  
+
+  
+
+  <script
+    defer
+    src="//localhost:3000/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad()"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="//localhost:3000/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="//localhost:3000/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.167.0">
+<script>
+  (function () {
+    var html = document.documentElement;
+    html.classList.add('dark');
+    try {
+      localStorage.setItem('dark', 'true');
+    } catch (e) {}
+    var metaTheme = document.querySelector('meta[name="theme-color"]');
+    if (metaTheme) {
+      metaTheme.setAttribute('content', 'rgb(0 0 0 / 85%)');
+    }
+    setTimeout(function () {
+      html.classList.remove('not-ready');
+    }, 10);
+  })();
+</script>
+
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="//localhost:3000/"
+      >Nvnest</a
+    >
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">Why Your AP Team Should Verify Data, Not Just Trust It</h1><div class="text-xs antialiased opacity-60"><time>Oct 4, 2026</time></div></header>
+
+  <section><p>Unverified AI extraction exposes AP teams to duplicate payments, wrong amounts, and fraud. Verification is fastest when every extracted field links to its exact location on the source document, letting reviewers confirm values in seconds. Nvnest provides this source traceability and routes ambiguous fields to human review.</p>
+<h2 id="why-accuracy-errors-in-ap-are-expensive">Why Accuracy Errors in AP Are Expensive</h2>
+<p>Accounts payable errors rarely stay small. A misread decimal or a wrong vendor ID moves money to the wrong place, and recovering it takes far more effort than catching it at intake.</p>
+<p>Common failure points include:</p>
+<ul>
+<li><strong>Total misreads:</strong> OCR confuses handwritten or low-resolution digits, such as 1 and 7 or 5 and 6.</li>
+<li><strong>Date ambiguity:</strong> Invoices often list an issue date, a service period, and a due date. Extraction tools that pick the wrong one distort aging reports and early-payment discounts.</li>
+<li><strong>Line-item drift:</strong> Tables with merged cells or multi-line descriptions can shift quantities onto the wrong products.</li>
+<li><strong>Silent duplicates:</strong> Re-sent invoices with slightly different formatting can pass a basic match check.</li>
+</ul>
+<p>Each error looks valid in the ERP. That is why it persists until a vendor statement, audit, or customer dispute exposes it.</p>
+<h2 id="why-trust-the-model-is-the-wrong-control">Why &ldquo;Trust the Model&rdquo; Is the Wrong Control</h2>
+<p>AI extraction is probabilistic. Accuracy depends on document quality, layout familiarity, and language. A system can return a confident-looking result that is still wrong, and the output rarely signals which field is the problem.</p>
+<p>Treating extraction as a finished product removes the one checkpoint that catches these errors. Regulatory and audit frameworks expect a documented control over financial records, not just a fast process. For reference, see the <a href="https://www.irs.gov/pub/irs-pdf/p583.pdf">IRS recordkeeping guidance for businesses</a> and the <a href="https://www.afponline.org">AFP resources on payments controls</a>.</p>
+<h3 id="the-specific-risks-of-unchecked-extraction">The Specific Risks of Unchecked Extraction</h3>
+<ul>
+<li><strong>Payment accuracy:</strong> Wrong amounts or bank details cause overpayments or misdirected funds.</li>
+<li><strong>Fraud exposure:</strong> Altered invoices or changed remittance details pass through when no one compares the extracted values to the source.</li>
+<li><strong>Audit gaps:</strong> Auditors ask where a number came from. Without a traceable origin, the answer is a guess.</li>
+<li><strong>Tax and reporting errors:</strong> Incorrect dates or tax amounts flow into VAT, sales tax, and 1099 reporting.</li>
+</ul>
+<h2 id="what-source-linked-verification-looks-like">What Source-Linked Verification Looks Like</h2>
+<p>Verification works best when the reviewer does not re-key data. The efficient model shows the extracted value next to the exact region of the document it came from, so a reviewer confirms or corrects it with one click.</p>
+<p>This changes the work from &ldquo;read the whole invoice again&rdquo; to &ldquo;check five highlighted fields.&rdquo; Reviewers focus attention where the system is uncertain.</p>
+<h3 id="three-requirements-for-an-effective-review-step">Three Requirements for an Effective Review Step</h3>
+<ul>
+<li><strong>Field-level traceability:</strong> Each value (total, date, line item) links to its page and position on the original file.</li>
+<li><strong>Exception routing:</strong> Ambiguous data, such as two conflicting dates, goes to a person instead of being guessed.</li>
+<li><strong>Clean handoff:</strong> Approved data exports to the ERP, CRM, or accounting system with an audit trail intact.</li>
+</ul>
+<h2 id="comparison-manual-entry-unchecked-ai-and-verified-ai">Comparison: Manual Entry, Unchecked AI, and Verified AI</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Method</th>
+					<th>Speed per Invoice</th>
+					<th>Error Detection</th>
+					<th>Audit Trail</th>
+					<th>Fraud Visibility</th>
+					<th>Best Fit</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Manual keying</td>
+					<td>Slow</td>
+					<td>Depends on reviewer fatigue</td>
+					<td>Limited to entry log</td>
+					<td>Low</td>
+					<td>Very low volume</td>
+			</tr>
+			<tr>
+					<td>Unchecked AI extraction</td>
+					<td>Fast</td>
+					<td>Low; errors are silent</td>
+					<td>Weak; no source reference</td>
+					<td>Low</td>
+					<td>Not recommended for payment data</td>
+			</tr>
+			<tr>
+					<td>AI with source-linked verification</td>
+					<td>Fast with targeted review</td>
+					<td>High; uncertain fields are flagged</td>
+					<td>Strong; each field traces to source</td>
+					<td>Higher; altered values are visible against the original</td>
+					<td>Most AP teams processing recurring invoices</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="how-to-build-a-verification-step-into-ap-workflows">How to Build a Verification Step Into AP Workflows</h2>
+<p>Start by defining which fields require review before posting. Totals, bank details, vendor identifiers, and due dates are the highest-risk fields and should always be checked.</p>
+<p>Next, set confidence thresholds. Fields below the threshold, and any field with conflicting candidates, should route to a reviewer. High-confidence, non-critical fields can post automatically after sampling.</p>
+<p>Finally, measure the process. Track exception rates, correction rates by vendor, and time to approval. A rising correction rate for one vendor usually signals a template change or a document quality problem worth fixing at the source.</p>
+<h3 id="where-nvnest-fits">Where Nvnest Fits</h3>
+<p><a href="https://Nvnest.com">Nvnest</a> is built around this verification model. It extracts totals, dates, and line items from invoices, receipts, and supply documents, then links every extracted field to its exact source location on the original page.</p>
+<p>When the data is ambiguous, such as multiple conflicting dates, Nvnest flags it for a staff member to approve rather than guessing. Once verified, data exports to your ERP, CRM, or accounting software while sensitive financial information stays locally protected.</p>
+<p>To see how source-linked review fits your current invoice volume, <a href="https://Nvnest.com">explore Nvnest&rsquo;s document verification workflow</a> and test it against a sample batch of your own invoices.</p>
+<h2 id="key-takeaways-for-ap-leaders">Key Takeaways for AP Leaders</h2>
+<ul>
+<li><strong>Verify before posting:</strong> Extraction speed does not replace a review of high-risk fields.</li>
+<li><strong>Require source links:</strong> A value you cannot trace is a value you cannot defend in an audit.</li>
+<li><strong>Route exceptions, not everything:</strong> Targeted review keeps throughput high without sacrificing control.</li>
+<li><strong>Track correction rates:</strong> They reveal vendor, template, and document quality problems early.</li>
+</ul>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h3 id="is-ai-invoice-extraction-accurate-enough-to-skip-manual-review">Is AI invoice extraction accurate enough to skip manual review?</h3>
+<p>AI extraction is fast and often accurate, but its errors are not always visible. Payment-critical fields such as totals, bank details, and due dates should be verified against the source document before posting.</p>
+<h3 id="what-is-source-linked-verification-in-accounts-payable">What is source-linked verification in accounts payable?</h3>
+<p>Source-linked verification connects each extracted value to its exact page and position on the original invoice. Reviewers confirm or correct data by checking the highlighted source instead of re-keying the entire document.</p>
+<h3 id="how-does-nvnest-handle-uncertain-or-conflicting-data">How does Nvnest handle uncertain or conflicting data?</h3>
+<p>Nvnest flags ambiguous fields, such as invoices with multiple conflicting dates, and sends them to a human reviewer for approval. Only verified data is exported to your ERP, CRM, or accounting software.</p>
+</section>
+
+  <footer class="mt-12 flex flex-wrap"><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/accounts-payable"
+      >Accounts Payable</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/invoice-automation"
+      >Invoice Automation</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/data-verification"
+      >Data Verification</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="//localhost:3000/tags/ai-document-processing"
+      >AI Document Processing</a
+    ></footer><nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a class="ltr:pr-3 rtl:pl-3" href="//localhost:3000/post/click-the-number/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>Click the Number, See the Source: How Traceability Works in Document Extraction</span></a
+    ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+      href="//localhost:3000/post/extract-invoice-total/"
+      ><span>Extract Invoice Totals, Dates, and Line Items Without Retyping</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    ></nav></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2026
+    <a class="link" href="//localhost:3000/">Nvnest</a></div>
+</footer>
+</body>
+</html>
