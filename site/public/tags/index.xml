@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Nvnest</title>
-		<link>//localhost:3000/tags/</link>
+		<link>/tags/</link>
 		<description>Recent content in Tags on Nvnest</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,173 +12,173 @@
 		
 			<lastBuildDate>Mon, 12 Oct 2026 10:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:3000/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Data Extraction</title>
-				<link>//localhost:3000/tags/data-extraction/</link>
+				<link>/tags/data-extraction/</link>
 				<pubDate>Mon, 12 Oct 2026 10:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/data-extraction/</guid>
+				<guid>/tags/data-extraction/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Financial Compliance</title>
-				<link>//localhost:3000/tags/financial-compliance/</link>
+				<link>/tags/financial-compliance/</link>
 				<pubDate>Mon, 12 Oct 2026 10:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/financial-compliance/</guid>
+				<guid>/tags/financial-compliance/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Invoice Automation</title>
-				<link>//localhost:3000/tags/invoice-automation/</link>
+				<link>/tags/invoice-automation/</link>
 				<pubDate>Mon, 12 Oct 2026 10:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/invoice-automation/</guid>
+				<guid>/tags/invoice-automation/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI</title>
-				<link>//localhost:3000/tags/ai/</link>
+				<link>/tags/ai/</link>
 				<pubDate>Mon, 12 Oct 2026 16:13:57 +0800</pubDate>
-				<guid>//localhost:3000/tags/ai/</guid>
+				<guid>/tags/ai/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Automation</title>
-				<link>//localhost:3000/tags/automation/</link>
+				<link>/tags/automation/</link>
 				<pubDate>Mon, 12 Oct 2026 16:13:57 +0800</pubDate>
-				<guid>//localhost:3000/tags/automation/</guid>
+				<guid>/tags/automation/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Logistics</title>
-				<link>//localhost:3000/tags/logistics/</link>
+				<link>/tags/logistics/</link>
 				<pubDate>Mon, 12 Oct 2026 16:13:57 +0800</pubDate>
-				<guid>//localhost:3000/tags/logistics/</guid>
+				<guid>/tags/logistics/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Supply Chain</title>
-				<link>//localhost:3000/tags/supply-chain/</link>
+				<link>/tags/supply-chain/</link>
 				<pubDate>Mon, 12 Oct 2026 16:13:57 +0800</pubDate>
-				<guid>//localhost:3000/tags/supply-chain/</guid>
+				<guid>/tags/supply-chain/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Accounts Payable</title>
-				<link>//localhost:3000/tags/accounts-payable/</link>
+				<link>/tags/accounts-payable/</link>
 				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/accounts-payable/</guid>
+				<guid>/tags/accounts-payable/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Data Accuracy</title>
-				<link>//localhost:3000/tags/data-accuracy/</link>
+				<link>/tags/data-accuracy/</link>
 				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/data-accuracy/</guid>
+				<guid>/tags/data-accuracy/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Document Extraction</title>
-				<link>//localhost:3000/tags/document-extraction/</link>
+				<link>/tags/document-extraction/</link>
 				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/document-extraction/</guid>
+				<guid>/tags/document-extraction/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Finance Automation</title>
-				<link>//localhost:3000/tags/finance-automation/</link>
+				<link>/tags/finance-automation/</link>
 				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/finance-automation/</guid>
+				<guid>/tags/finance-automation/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Invoicing</title>
-				<link>//localhost:3000/tags/invoicing/</link>
+				<link>/tags/invoicing/</link>
 				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/invoicing/</guid>
+				<guid>/tags/invoicing/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Nvnest</title>
-				<link>//localhost:3000/tags/nvnest/</link>
+				<link>/tags/nvnest/</link>
 				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/nvnest/</guid>
+				<guid>/tags/nvnest/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Procurement</title>
-				<link>//localhost:3000/tags/procurement/</link>
+				<link>/tags/procurement/</link>
 				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/procurement/</guid>
+				<guid>/tags/procurement/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Document Processing</title>
-				<link>//localhost:3000/tags/document-processing/</link>
+				<link>/tags/document-processing/</link>
 				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/document-processing/</guid>
+				<guid>/tags/document-processing/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Financial Automation</title>
-				<link>//localhost:3000/tags/financial-automation/</link>
+				<link>/tags/financial-automation/</link>
 				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/financial-automation/</guid>
+				<guid>/tags/financial-automation/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Invoice Processing</title>
-				<link>//localhost:3000/tags/invoice-processing/</link>
+				<link>/tags/invoice-processing/</link>
 				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/invoice-processing/</guid>
+				<guid>/tags/invoice-processing/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI Verification</title>
-				<link>//localhost:3000/tags/ai-verification/</link>
+				<link>/tags/ai-verification/</link>
 				<pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/ai-verification/</guid>
+				<guid>/tags/ai-verification/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Traceability</title>
-				<link>//localhost:3000/tags/traceability/</link>
+				<link>/tags/traceability/</link>
 				<pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/traceability/</guid>
+				<guid>/tags/traceability/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI Document Processing</title>
-				<link>//localhost:3000/tags/ai-document-processing/</link>
+				<link>/tags/ai-document-processing/</link>
 				<pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/ai-document-processing/</guid>
+				<guid>/tags/ai-document-processing/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Data Verification</title>
-				<link>//localhost:3000/tags/data-verification/</link>
+				<link>/tags/data-verification/</link>
 				<pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/data-verification/</guid>
+				<guid>/tags/data-verification/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Document Automation</title>
-				<link>//localhost:3000/tags/document-automation/</link>
+				<link>/tags/document-automation/</link>
 				<pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/document-automation/</guid>
+				<guid>/tags/document-automation/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Data Validation</title>
-				<link>//localhost:3000/tags/data-validation/</link>
+				<link>/tags/data-validation/</link>
 				<pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/data-validation/</guid>
+				<guid>/tags/data-validation/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AP Automation</title>
-				<link>//localhost:3000/tags/ap-automation/</link>
+				<link>/tags/ap-automation/</link>
 				<pubDate>Thu, 15 May 2025 08:00:00 +0000</pubDate>
-				<guid>//localhost:3000/tags/ap-automation/</guid>
+				<guid>/tags/ap-automation/</guid>
 				<description></description>
 			</item>
 	</channel>

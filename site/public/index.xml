@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Nvnest</title>
-		<link>//localhost:3000/</link>
+		<link>/</link>
 		<description>Recent content on Nvnest</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,82 +12,82 @@
 		
 			<lastBuildDate>Mon, 12 Oct 2026 10:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:3000/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>How to Automate Invoice Data Extraction While Maintaining an Audit Trail</title>
-				<link>//localhost:3000/post/how-to-automate-invoice/</link>
+				<link>/post/how-to-automate-invoice/</link>
 				<pubDate>Mon, 12 Oct 2026 10:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/how-to-automate-invoice/</guid>
+				<guid>/post/how-to-automate-invoice/</guid>
 				<description>&lt;p&gt;Automating invoice data extraction requires balancing processing speed with strict accuracy. Finance teams can achieve this by using intelligent document processing tools that provide source-linked verification. This ensures every extracted data point can be traced back to its original location, maintaining a reliable audit trail for compliance and review.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-challenge-of-automated-invoice-processing&#34;&gt;The Challenge of Automated Invoice Processing&lt;/h2&gt;&#xA;&lt;p&gt;Accounts payable and finance teams face increasing pressure to process high volumes of invoices quickly. Traditional manual data entry is slow and prone to human error, while fully automated &amp;ldquo;black box&amp;rdquo; solutions often lack transparency. When an automated system misreads a value, finance professionals must waste time hunting through pages to find the discrepancy.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>How Freight Forwarders Can Automate Bill of Lading Data Extraction for 99% Accuracy</title>
-				<link>//localhost:3000/post/automate-bill-of-lading/</link>
+				<link>/post/automate-bill-of-lading/</link>
 				<pubDate>Mon, 12 Oct 2026 16:13:57 +0800</pubDate>
-				<guid>//localhost:3000/post/automate-bill-of-lading/</guid>
+				<guid>/post/automate-bill-of-lading/</guid>
 				<description>&lt;p&gt;In the high-volume, low-margin world of international logistics, the Bill of Lading (BoL) remains the single most critical document in the supply chain. Yet, for many freight forwarders, it is also the biggest bottleneck. Traditional manual entry is slow and error-prone, while legacy Optical Character Recognition (OCR) struggles with the diverse, unstructured formats provided by hundreds of global carriers.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Quick Answer:&lt;/strong&gt;&#xA;Freight forwarders extract Bill of Lading data by transitioning from manual keying to Intelligent Document Processing (IDP). While manual entry is slow and template-based OCR fails on varied layouts, modern AI-powered IDP uses Large Language Models (LLMs) to accurately identify and extract key entities like HS Codes and Consignee details from unstructured PDFs, reducing processing time from minutes to seconds.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
 			</item>
 			<item>
 				<title>How to Handle Mismatched Invoice, Purchase Order, and Shipment Details</title>
-				<link>//localhost:3000/post/handle-mismatched/</link>
+				<link>/post/handle-mismatched/</link>
 				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/handle-mismatched/</guid>
+				<guid>/post/handle-mismatched/</guid>
 				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;A 3-way match discrepancy occurs when the Purchase Order (PO), Goods Received Note (GRN), and Supplier Invoice contain conflicting data regarding price, quantity, or item specifications. Immediate resolution requires isolating the variance, validating against tolerance thresholds, and coordinating cross-functionally between procurement, warehouse, and accounts payable to approve, adjust, or reject the invoice before payment processing.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Three-way matching is the cornerstone of financial control in procurement. It ensures that an organization only pays for goods or services that were explicitly ordered and physically received. However, manual errors, supplier mistakes, and logistical complexities frequently cause mismatches. Resolving these discrepancies efficiently prevents overpayments, maintains strong vendor relationships, and optimizes working capital.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Procurement Teams: Extracting Supply Documents Into Usable Records</title>
-				<link>//localhost:3000/post/extracting-supply-documents/</link>
+				<link>/post/extracting-supply-documents/</link>
 				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/extracting-supply-documents/</guid>
+				<guid>/post/extracting-supply-documents/</guid>
 				<description>&lt;p&gt;Procurement teams turn supply documents into usable records by capturing key fields (supplier, dates, quantities, unit prices, totals, line items) and matching them against purchase orders before ERP entry. AI extraction with source traceability and human review speeds this up without sacrificing accuracy.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-supplier-paperwork-stalls-procurement-work&#34;&gt;Why Supplier Paperwork Stalls Procurement Work&lt;/h2&gt;&#xA;&lt;p&gt;Supplier documents arrive in every format a vendor can produce. A single category of spend can generate PDFs, scanned faxes, emailed spreadsheets, and photographed packing slips, each with different layouts.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>What Is the Most Reliable Way to Eliminate Manual Data Entry in Accounts Payable?</title>
-				<link>//localhost:3000/post/most-reliable-way/</link>
+				<link>/post/most-reliable-way/</link>
 				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/most-reliable-way/</guid>
+				<guid>/post/most-reliable-way/</guid>
 				<description>&lt;p&gt;The most reliable way to reduce manual data entry in accounts payable is to automate repetitive accounting tasks and connect them to a consistent workflow. &lt;strong&gt;Nvnest brings automated accounting and workflow management together&lt;/strong&gt;, helping businesses streamline invoice processing, reduce duplicate work, and give finance teams more time to focus on exceptions and decisions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-manual-data-entry-slows-accounts-payable&#34;&gt;Why Manual Data Entry Slows Accounts Payable&lt;/h2&gt;&#xA;&lt;p&gt;When invoice information has to be copied manually between documents, spreadsheets, and accounting systems, routine work can consume time that finance teams could spend on review and planning. Each handoff can also make it harder to track an invoice’s status or identify where a delay occurred.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Turning Supplier Invoices Into Clean Data in Minutes: An End-to-End Workflow for Finance Teams</title>
-				<link>//localhost:3000/post/turning-supplier-invoices-into-clean-data/</link>
+				<link>/post/turning-supplier-invoices-into-clean-data/</link>
 				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/turning-supplier-invoices-into-clean-data/</guid>
+				<guid>/post/turning-supplier-invoices-into-clean-data/</guid>
 				<description>&lt;p&gt;Turning supplier invoices into clean financial data requires an automated four-stage workflow: multi-format document ingestion, AI-driven field extraction, visual human-in-the-loop verification, and secure ERP export. This process eliminates manual data entry, guarantees audit traceability to source documents, and reduces invoice processing cycles from days to minutes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-latency-and-risk-of-manual-invoice-entry&#34;&gt;The Latency and Risk of Manual Invoice Entry&lt;/h2&gt;&#xA;&lt;p&gt;Small and mid-sized finance teams often process hundreds of supplier invoices every month across disparate formats. Paper slips, scanned receipts, and multi-page PDF attachments create administrative bottlenecks that slow month-end closes.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Click the Number, See the Source: How Traceability Works in Document Extraction</title>
-				<link>//localhost:3000/post/click-the-number/</link>
+				<link>/post/click-the-number/</link>
 				<pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/click-the-number/</guid>
+				<guid>/post/click-the-number/</guid>
 				<description>&lt;p&gt;Traceability in document extraction links every value an AI pulls from an invoice or receipt to its exact page and position on the original file. Reviewers click a total, date, or line item and see the highlighted source. Verification takes seconds, not a manual re-read of the full document.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-extracted-numbers-need-a-paper-trail&#34;&gt;Why Extracted Numbers Need a Paper Trail&lt;/h2&gt;&#xA;&lt;p&gt;An extracted number is only as useful as your ability to confirm it. When a total of $4,812.50 flows into your accounting system without a visible origin, your team has two options: trust the tool or re-check the document by hand.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Why Your AP Team Should Verify Data, Not Just Trust It</title>
-				<link>//localhost:3000/post/ap-team-should-verify-data/</link>
+				<link>/post/ap-team-should-verify-data/</link>
 				<pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/ap-team-should-verify-data/</guid>
+				<guid>/post/ap-team-should-verify-data/</guid>
 				<description>&lt;p&gt;Unverified AI extraction exposes AP teams to duplicate payments, wrong amounts, and fraud. Verification is fastest when every extracted field links to its exact location on the source document, letting reviewers confirm values in seconds. Nvnest provides this source traceability and routes ambiguous fields to human review.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-accuracy-errors-in-ap-are-expensive&#34;&gt;Why Accuracy Errors in AP Are Expensive&lt;/h2&gt;&#xA;&lt;p&gt;Accounts payable errors rarely stay small. A misread decimal or a wrong vendor ID moves money to the wrong place, and recovering it takes far more effort than catching it at intake.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Extract Invoice Totals, Dates, and Line Items Without Retyping</title>
-				<link>//localhost:3000/post/extract-invoice-total/</link>
+				<link>/post/extract-invoice-total/</link>
 				<pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/extract-invoice-total/</guid>
+				<guid>/post/extract-invoice-total/</guid>
 				<description>&lt;p&gt;AP teams can extract invoice totals, dates, and line items without retyping by converting each invoice or receipt into structured fields, then validating uncertain values against the source document. A reliable workflow combines automated extraction, field-level evidence, human review for exceptions, and controlled export to accounting or ERP systems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-manual-invoice-entry-slows-ap-teams&#34;&gt;Why manual invoice entry slows AP teams&lt;/h2&gt;&#xA;&lt;p&gt;Invoices and receipts contain the same types of information, but not in the same layout. A supplier might place the invoice date beside the invoice number; another might put it in a header with several other dates. Line items can span multiple pages or use abbreviated descriptions.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Handling Conflicting Dates and Unclear Fields Without Guessing</title>
-				<link>//localhost:3000/post/handling-conflicting-dates/</link>
+				<link>/post/handling-conflicting-dates/</link>
 				<pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/handling-conflicting-dates/</guid>
+				<guid>/post/handling-conflicting-dates/</guid>
 				<description>&lt;p&gt;Ambiguous data in business documents, such as conflicting invoice dates or unreadable totals, should be flagged for human review, not auto-filled. Nvnest extracts fields, links each value to its source location on the page, and routes uncertain items to a team member who approves or corrects them before export.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-guessing-breaks-financial-records&#34;&gt;Why Guessing Breaks Financial Records&lt;/h2&gt;&#xA;&lt;p&gt;An extraction tool that picks the most likely value without telling anyone creates errors that stay hidden. A wrong invoice date can move a payment into the wrong period, distort accruals, or misstate a &lt;a href=&#34;https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping&#34;&gt;tax reporting period&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>How to Cut Invoice Processing Time by 70% Without Hiring</title>
-				<link>//localhost:3000/post/cut-invoice-processing/</link>
+				<link>/post/cut-invoice-processing/</link>
 				<pubDate>Thu, 15 May 2025 08:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/cut-invoice-processing/</guid>
+				<guid>/post/cut-invoice-processing/</guid>
 				<description>&lt;p&gt;Accounts payable teams cut invoice processing cycle times by up to 70% by replacing manual data entry with automated optical and neural document extraction. Eliminating keystroke entry, automated line-item capture, and programmatic two- or three-way matching drops cycle times from days to minutes without adding administrative headcount.&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-accounts-payable-teams-lose-hours&#34;&gt;Where Accounts Payable Teams Lose Hours&lt;/h2&gt;&#xA;&lt;p&gt;Manual invoice processing forces skilled finance personnel into repetitive administrative mechanics. Standard industry benchmarks from &lt;a href=&#34;https://ardentpartners.com&#34;&gt;Ardent Partners AP Metrics&lt;/a&gt; show that processing an invoice manually takes an average of 8 to 12 days from receipt to payment approval.&lt;/p&gt;</description>
 			</item>
 	</channel>

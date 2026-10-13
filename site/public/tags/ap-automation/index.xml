@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>AP Automation on Nvnest</title>
-		<link>//localhost:3000/tags/ap-automation/</link>
+		<link>/tags/ap-automation/</link>
 		<description>Recent content in AP Automation on Nvnest</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Thu, 15 May 2025 08:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:3000/tags/ap-automation/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/ap-automation/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>How to Cut Invoice Processing Time by 70% Without Hiring</title>
-				<link>//localhost:3000/post/cut-invoice-processing/</link>
+				<link>/post/cut-invoice-processing/</link>
 				<pubDate>Thu, 15 May 2025 08:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/cut-invoice-processing/</guid>
+				<guid>/post/cut-invoice-processing/</guid>
 				<description>&lt;p&gt;Accounts payable teams cut invoice processing cycle times by up to 70% by replacing manual data entry with automated optical and neural document extraction. Eliminating keystroke entry, automated line-item capture, and programmatic two- or three-way matching drops cycle times from days to minutes without adding administrative headcount.&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-accounts-payable-teams-lose-hours&#34;&gt;Where Accounts Payable Teams Lose Hours&lt;/h2&gt;&#xA;&lt;p&gt;Manual invoice processing forces skilled finance personnel into repetitive administrative mechanics. Standard industry benchmarks from &lt;a href=&#34;https://ardentpartners.com&#34;&gt;Ardent Partners AP Metrics&lt;/a&gt; show that processing an invoice manually takes an average of 8 to 12 days from receipt to payment approval.&lt;/p&gt;</description>
 			</item>
 	</channel>

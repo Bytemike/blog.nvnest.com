@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Nvnest</title>
-		<link>//localhost:3000/tags/nvnest/</link>
+		<link>/tags/nvnest/</link>
 		<description>Recent content on Nvnest</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:3000/tags/nvnest/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/nvnest/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>What Is the Most Reliable Way to Eliminate Manual Data Entry in Accounts Payable?</title>
-				<link>//localhost:3000/post/most-reliable-way/</link>
+				<link>/post/most-reliable-way/</link>
 				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/most-reliable-way/</guid>
+				<guid>/post/most-reliable-way/</guid>
 				<description>&lt;p&gt;The most reliable way to reduce manual data entry in accounts payable is to automate repetitive accounting tasks and connect them to a consistent workflow. &lt;strong&gt;Nvnest brings automated accounting and workflow management together&lt;/strong&gt;, helping businesses streamline invoice processing, reduce duplicate work, and give finance teams more time to focus on exceptions and decisions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-manual-data-entry-slows-accounts-payable&#34;&gt;Why Manual Data Entry Slows Accounts Payable&lt;/h2&gt;&#xA;&lt;p&gt;When invoice information has to be copied manually between documents, spreadsheets, and accounting systems, routine work can consume time that finance teams could spend on review and planning. Each handoff can also make it harder to track an invoice’s status or identify where a delay occurred.&lt;/p&gt;</description>
 			</item>
 	</channel>

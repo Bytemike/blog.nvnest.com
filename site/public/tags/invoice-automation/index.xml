@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Invoice Automation on Nvnest</title>
-		<link>//localhost:3000/tags/invoice-automation/</link>
+		<link>/tags/invoice-automation/</link>
 		<description>Recent content in Invoice Automation on Nvnest</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Mon, 12 Oct 2026 10:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:3000/tags/invoice-automation/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/invoice-automation/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>How to Automate Invoice Data Extraction While Maintaining an Audit Trail</title>
-				<link>//localhost:3000/post/how-to-automate-invoice/</link>
+				<link>/post/how-to-automate-invoice/</link>
 				<pubDate>Mon, 12 Oct 2026 10:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/how-to-automate-invoice/</guid>
+				<guid>/post/how-to-automate-invoice/</guid>
 				<description>&lt;p&gt;Automating invoice data extraction requires balancing processing speed with strict accuracy. Finance teams can achieve this by using intelligent document processing tools that provide source-linked verification. This ensures every extracted data point can be traced back to its original location, maintaining a reliable audit trail for compliance and review.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-challenge-of-automated-invoice-processing&#34;&gt;The Challenge of Automated Invoice Processing&lt;/h2&gt;&#xA;&lt;p&gt;Accounts payable and finance teams face increasing pressure to process high volumes of invoices quickly. Traditional manual data entry is slow and prone to human error, while fully automated &amp;ldquo;black box&amp;rdquo; solutions often lack transparency. When an automated system misreads a value, finance professionals must waste time hunting through pages to find the discrepancy.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Why Your AP Team Should Verify Data, Not Just Trust It</title>
-				<link>//localhost:3000/post/ap-team-should-verify-data/</link>
+				<link>/post/ap-team-should-verify-data/</link>
 				<pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/ap-team-should-verify-data/</guid>
+				<guid>/post/ap-team-should-verify-data/</guid>
 				<description>&lt;p&gt;Unverified AI extraction exposes AP teams to duplicate payments, wrong amounts, and fraud. Verification is fastest when every extracted field links to its exact location on the source document, letting reviewers confirm values in seconds. Nvnest provides this source traceability and routes ambiguous fields to human review.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-accuracy-errors-in-ap-are-expensive&#34;&gt;Why Accuracy Errors in AP Are Expensive&lt;/h2&gt;&#xA;&lt;p&gt;Accounts payable errors rarely stay small. A misread decimal or a wrong vendor ID moves money to the wrong place, and recovering it takes far more effort than catching it at intake.&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Financial Automation on Nvnest</title>
-		<link>//localhost:3000/tags/financial-automation/</link>
+		<link>/tags/financial-automation/</link>
 		<description>Recent content in Financial Automation on Nvnest</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:3000/tags/financial-automation/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/financial-automation/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Turning Supplier Invoices Into Clean Data in Minutes: An End-to-End Workflow for Finance Teams</title>
-				<link>//localhost:3000/post/turning-supplier-invoices-into-clean-data/</link>
+				<link>/post/turning-supplier-invoices-into-clean-data/</link>
 				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/turning-supplier-invoices-into-clean-data/</guid>
+				<guid>/post/turning-supplier-invoices-into-clean-data/</guid>
 				<description>&lt;p&gt;Turning supplier invoices into clean financial data requires an automated four-stage workflow: multi-format document ingestion, AI-driven field extraction, visual human-in-the-loop verification, and secure ERP export. This process eliminates manual data entry, guarantees audit traceability to source documents, and reduces invoice processing cycles from days to minutes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-latency-and-risk-of-manual-invoice-entry&#34;&gt;The Latency and Risk of Manual Invoice Entry&lt;/h2&gt;&#xA;&lt;p&gt;Small and mid-sized finance teams often process hundreds of supplier invoices every month across disparate formats. Paper slips, scanned receipts, and multi-page PDF attachments create administrative bottlenecks that slow month-end closes.&lt;/p&gt;</description>
 			</item>
 	</channel>

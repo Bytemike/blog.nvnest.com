@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Document Automation on Nvnest</title>
-		<link>//localhost:3000/tags/document-automation/</link>
+		<link>/tags/document-automation/</link>
 		<description>Recent content in Document Automation on Nvnest</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:3000/tags/document-automation/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/document-automation/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Extract Invoice Totals, Dates, and Line Items Without Retyping</title>
-				<link>//localhost:3000/post/extract-invoice-total/</link>
+				<link>/post/extract-invoice-total/</link>
 				<pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/extract-invoice-total/</guid>
+				<guid>/post/extract-invoice-total/</guid>
 				<description>&lt;p&gt;AP teams can extract invoice totals, dates, and line items without retyping by converting each invoice or receipt into structured fields, then validating uncertain values against the source document. A reliable workflow combines automated extraction, field-level evidence, human review for exceptions, and controlled export to accounting or ERP systems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-manual-invoice-entry-slows-ap-teams&#34;&gt;Why manual invoice entry slows AP teams&lt;/h2&gt;&#xA;&lt;p&gt;Invoices and receipts contain the same types of information, but not in the same layout. A supplier might place the invoice date beside the invoice number; another might put it in a header with several other dates. Line items can span multiple pages or use abbreviated descriptions.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Handling Conflicting Dates and Unclear Fields Without Guessing</title>
-				<link>//localhost:3000/post/handling-conflicting-dates/</link>
+				<link>/post/handling-conflicting-dates/</link>
 				<pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:3000/post/handling-conflicting-dates/</guid>
+				<guid>/post/handling-conflicting-dates/</guid>
 				<description>&lt;p&gt;Ambiguous data in business documents, such as conflicting invoice dates or unreadable totals, should be flagged for human review, not auto-filled. Nvnest extracts fields, links each value to its source location on the page, and routes uncertain items to a team member who approves or corrects them before export.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-guessing-breaks-financial-records&#34;&gt;Why Guessing Breaks Financial Records&lt;/h2&gt;&#xA;&lt;p&gt;An extraction tool that picks the most likely value without telling anyone creates errors that stay hidden. A wrong invoice date can move a payment into the wrong period, distort accruals, or misstate a &lt;a href=&#34;https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping&#34;&gt;tax reporting period&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 	</channel>
