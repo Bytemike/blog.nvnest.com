@@ -1,4 +1,14 @@
-baseURL = "/"
+# Full final URL where the blog is served, so Hugo emits absolute links
+# (canonical, OG, sitemap, RSS, css/js/img) on https://nvnest.com/blog/.
+# The trailing slash is REQUIRED.
+#
+# Do NOT use "/" or "https://nvnest.com/": those emit root-relative URLs
+# that would point at nvnest.com itself — outside the /blog/* proxy rule —
+# breaking every post link, stylesheet, and image on the landing site.
+# The blog repo publishes at the ROOT of silly-pothos.../; the landing
+# page's /blog -> site proxy strips "/blog" and maps the splat to that root,
+# so baseURL here must be the public nvnest.com/blog address.
+baseURL = "https://nvnest.com/blog/"
 languageCode = "en-us"
 title = "Nvnest"
 theme = "paper"
