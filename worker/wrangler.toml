@@ -1,0 +1,19 @@
+# Cloudflare Worker — nvnest.com/blog reverse proxy
+# Deploy from this directory:  npx wrangler deploy
+#
+# 1. Set BLOG_ORIGIN to the blog's Pages production host
+#    (e.g. "nvnest-blog.pages.dev").
+# 2. Uncomment the routes block to attach the Worker to the live zone.
+
+name = "nvnest-blog-proxy"
+main = "blog-proxy.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+BLOG_ORIGIN = "REPLACE_WITH_BLOG_PAGES_HOST"
+
+# Live routing on the nvnest.com zone (uncomment once the blog project exists):
+# routes = [
+#   { pattern = "nvnest.com/blog*", zone_name = "nvnest.com" },
+#   { pattern = "www.nvnest.com/blog*", zone_name = "nvnest.com" }
+# ]
