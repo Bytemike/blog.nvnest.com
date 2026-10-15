@@ -1,9 +1,8 @@
-// Cloudflare Worker: serve the Hugo blog at https://nvnest.com/blog/*
-// by reverse-proxying to the blog's Cloudflare Pages origin.
+// Cloudflare Worker: nvnest.com edge logic
 //
-// Attach via routes (see wrangler.toml):
-//   nvnest.com/blog*
-//   www.nvnest.com/blog*
+// Routes (see wrangler.toml):
+//   nvnest.com/blog*    -> reverse-proxy the Hugo blog from its Pages origin
+//   www.nvnest.com/*    -> 301 redirect to the apex (nvnest.com)
 //
 // The blog is built with Hugo baseURL = "https://nvnest.com/blog/", so it emits
 // root-relative links such as /blog/css/... . We strip the "/blog" prefix and
@@ -12,19 +11,26 @@
 
 export default {
   async fetch(request, env) {
+    const url = new URL(request.url);
+
+    // www.nvnest.com/<path> -> https://nvnest.com/<path> (301)
+    if (url.hostname === "www.nvnest.com" || url.hostname.startsWith("www.")) {
+      const target = new URL(request.url);
+      target.hostname = url.hostname.replace(/^www\./, "");
+      return Response.redirect(target.toString(), 301);
+    }
+
+    // /blog reverse proxy
     const origin = env.BLOG_ORIGIN;
     if (!origin) {
       return new Response("BLOG_ORIGIN is not configured", { status: 500 });
     }
-
-    const url = new URL(request.url);
 
     if (url.pathname === "/blog") {
       url.pathname = "/";
     } else if (url.pathname.startsWith("/blog/")) {
       url.pathname = url.pathname.slice("/blog".length);
     } else {
-      // Route should only match /blog*, but fail safe.
       return new Response("Not found", { status: 404 });
     }
 

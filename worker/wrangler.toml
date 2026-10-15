@@ -1,19 +1,19 @@
-# Cloudflare Worker — nvnest.com/blog reverse proxy
-# Deploy from this directory:  npx wrangler deploy
-#
-# 1. Set BLOG_ORIGIN to the blog's Pages production host
-#    (e.g. "nvnest-blog.pages.dev").
-# 2. Uncomment the routes block to attach the Worker to the live zone.
+# Cloudflare Worker — nvnest.com edge logic
+# Deploy from this directory:  wrangler deploy
 
-name = "nvnest-blog-proxy"
+name = "nvnest-edge"
 main = "blog-proxy.js"
 compatibility_date = "2026-10-01"
 
-[vars]
-BLOG_ORIGIN = "REPLACE_WITH_BLOG_PAGES_HOST"
+# Routes on the nvnest.com zone. More specific routes win, so /blog on the apex
+# is proxied while everything on www is 301-redirected to the apex.
+# NOTE: keep this as a top-level key (before [vars]) — inside [vars] it is
+# parsed as an environment variable and no routes are attached.
+routes = [
+  { pattern = "nvnest.com/blog*", zone_name = "nvnest.com" },
+  { pattern = "www.nvnest.com/*", zone_name = "nvnest.com" }
+]
 
-# Live routing on the nvnest.com zone (uncomment once the blog project exists):
-# routes = [
-#   { pattern = "nvnest.com/blog*", zone_name = "nvnest.com" },
-#   { pattern = "www.nvnest.com/blog*", zone_name = "nvnest.com" }
-# ]
+[vars]
+# Blog Pages project production host.
+BLOG_ORIGIN = "nvnest-blog.pages.dev"
