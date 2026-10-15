@@ -1,0 +1,8 @@
+# Cloudflare Pages headers for the blog origin.
+# The blog is published publicly at https://nvnest.com/blog via a Worker proxy;
+# this keeps the raw *.pages.dev origin out of search results (avoids duplicate
+# content). Canonical/OG/sitemap URLs already point at nvnest.com/blog.
+# https://developers.cloudflare.com/pages/configuration/headers/
+
+/*
+  X-Robots-Tag: noindex
