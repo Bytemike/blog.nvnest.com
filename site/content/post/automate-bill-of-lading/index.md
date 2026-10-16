@@ -82,3 +82,7 @@ Most modern IDP platforms offer RESTful APIs that allow seamless integration wit
 
 ### What is the accuracy rate of AI Bill of Lading processing?
 Leading AI-powered IDP solutions typically achieve an accuracy rate of 99% or higher for structured and semi-structured fields like dates, numbers, and standard addresses. For complex, unstructured cargo descriptions, human-in-the-loop validation may still be used for the remaining 1% of edge cases to ensure total compliance.
+
+## About Nvnest
+
+Nvnest turns documents into verified data. Upload invoices and business documents — Nvnest extracts the fields you need, shows you exactly where each value came from, and lets your team review before it moves into your workflow. [See how Nvnest works →](https://nvnest.com/)

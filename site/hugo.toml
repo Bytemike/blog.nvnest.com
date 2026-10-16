@@ -32,11 +32,37 @@ mainSections = ["post"]
   pagerSize = 100
 
 [params]
-  description = ""
+  # Site-wide description. Used as the home page <meta name="description">,
+  # the home page intro paragraph, and the llms.txt summary. Keep under ~160 chars.
+  description = "Practical guides on invoice automation, accounts payable data extraction, and verifying AI-extracted document data for finance and procurement teams."
   color = "linen"
   name = ""
   logo = ""
   bio = ""
+
+  # Byline shown on posts and used as the fallback author. The publisher is the
+  # organization (Organization JSON-LD) — set a real person here only if posts
+  # get an explicit `author` in frontmatter.
+  author = "Nvnest"
+
+  # GEO/AEO: keyword-bearing <h1> for the blog home page.
+  homeHeading = "Invoice Automation and Document Extraction Guides"
+
+  # GEO/AEO: the single canonical definition of the product. Repeated verbatim
+  # across every post CTA, /about/, llms.txt and the Organization JSON-LD so
+  # answer engines learn ONE consistent entity definition ("Nvnest = document
+  # data extraction") instead of several competing ones.
+  slogan = "Turn documents into verified data"
+  organizationDescription = "Nvnest turns documents into verified data. Upload invoices and business documents — Nvnest extracts the fields you need, shows you exactly where each value came from, and lets your team review before it moves into your workflow."
+
+  # GEO/AEO: public identity of the publishing organization (emitted as JSON-LD
+  # Organization on every page).
+  organizationURL = "https://nvnest.com"
+  organizationLogo = "img/logo.svg"
+
+  # GEO/AEO: authoritative profiles for entity grounding (Organization.sameAs).
+  # Uncomment and fill in when known:
+  # sameAs = ["https://www.linkedin.com/company/nvnest"]
 
 [taxonomies]
   tag = "tags"
@@ -48,3 +74,14 @@ mainSections = ["post"]
     name = "Posts"
     url = "/post/"
     weight = 10
+
+# GEO/AEO: publish /llms.txt alongside the HTML home page so LLM crawlers get a
+# compact, curated map of the site. Rendered by layouts/index.llms.txt.
+[outputs]
+  home = ["HTML", "RSS", "llms"]
+
+[outputFormats.llms]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+  notAlternative = true

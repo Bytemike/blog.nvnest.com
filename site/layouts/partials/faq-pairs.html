@@ -1,0 +1,49 @@
+{{- /*
+  faq-pairs.html — extract the Q/A pairs of a post's "Frequently Asked Questions"
+  section into a slice of dicts ({"q": <question>, "a": <plain-text answer>}).
+
+  Used by extend-head.html to emit FAQPage JSON-LD (GEO/AEO: answer engines parse
+  FAQPage to surface direct answers).
+
+  Supports both heading styles found in the content:
+    ### Question?          (markdown H3)
+    **Question?**          (bold paragraph)
+
+  Returns an empty slice when the page has no FAQ section.
+*/ -}}
+
+{{- $pairs := slice -}}
+{{- $raw := .RawContent -}}
+
+{{- /* Isolate the FAQ section: split the markdown source on top-level (##) headings
+       and keep the chunk that starts with "Frequently Asked Questions". */ -}}
+{{- $section := "" -}}
+{{- range split $raw "\n## " -}}
+  {{- if hasPrefix (lower (trim . " ")) "frequently asked questions" -}}
+    {{- $section = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $section -}}
+  {{- /* Normalise bold "**Question?**" paragraphs into "### Question?" headings. */ -}}
+  {{- $section = replaceRE `(?m)^\*\*(.+?)\*\*[ \t]*$` "### $1" $section -}}
+
+  {{- /* Split into one block per question. Drop the heading chunk. */ -}}
+  {{- range after 1 (split $section "\n### ") -}}
+    {{- $lines := split . "\n" -}}
+    {{- $q := trim (index $lines 0) " \t*#" -}}
+    {{- $a := delimit (after 1 $lines) "\n" -}}
+    {{- /* Strip list markers, links, emphasis, then collapse whitespace. */ -}}
+    {{- $a = replaceRE `(?m)^[-*+]\s+` "" $a -}}
+    {{- $a = replaceRE `(?m)^\d+\.\s+` "" $a -}}
+    {{- $a = replaceRE `\[([^\]]+)\]\([^)]*\)` "$1" $a -}}
+    {{- $a = replaceRE `\*\*|\*|__|_` "" $a -}}
+    {{- $a = replaceRE `\s+` " " $a -}}
+    {{- $a = trim $a " " -}}
+    {{- if and $q $a -}}
+      {{- $pairs = $pairs | append (dict "q" $q "a" $a) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $pairs -}}

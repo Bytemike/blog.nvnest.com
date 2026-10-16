@@ -1,0 +1,23 @@
+# {{ site.Title }}
+
+> {{ site.Params.organizationDescription }}
+
+{{ site.Title }} ({{ site.Params.organizationURL | default "https://nvnest.com" }}) is a document data extraction platform. Finance, accounts payable and procurement teams upload invoices, purchase orders, bills of lading and packing slips; {{ site.Title }} extracts the fields they need, links every value back to its position on the source document, and routes anything uncertain to a person for review before export.
+
+This blog publishes practical, source-linked guides on invoice automation, accounts payable (AP) automation, three-way matching, and verifying AI-extracted document data before it reaches an ERP or general ledger.
+
+Key topics: invoice automation, accounts payable (AP) automation, document data extraction, three-way matching, source-linked verification, traceability, exception handling.
+
+## Posts
+
+{{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
+- [{{ .Title }}]({{ .Permalink }}): {{ .Description | default (.Summary | plainify) }}
+{{- end }}
+
+## Indexes
+
+- [About Nvnest]({{ "about/" | absURL }})
+- [All posts]({{ "post/" | absURL }})
+- [Tags]({{ "tags/" | absURL }})
+- [RSS feed]({{ "index.xml" | absURL }})
+- [Sitemap]({{ "sitemap.xml" | absURL }})

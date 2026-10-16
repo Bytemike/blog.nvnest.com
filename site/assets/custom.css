@@ -1,0 +1,52 @@
+/*
+ * Site overrides for the Paper theme.
+ *
+ * This file replaces themes/paper/assets/custom.css (Hugo resolves assets/
+ * site-first) and is concatenated *after* main.css in layouts/partials/head.html,
+ * so rules here win at equal specificity.
+ */
+
+/* ---------------------------------------------------------------------------
+   Tables: the guides are table-heavy (up to 4 sentence-length columns). Let
+   wide tables scroll horizontally instead of squeezing into unreadable columns
+   or overflowing the page on phones.
+   --------------------------------------------------------------------------- */
+.prose table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ...but leave the syntax-highlight code tables (one <table> per highlighted
+   block) as real tables, since the theme lays them out with flex rows. */
+.prose .highlight table {
+  display: table;
+  width: auto;
+  overflow-x: visible;
+}
+
+/* ---------------------------------------------------------------------------
+   Focus visibility: the theme styles hover but not keyboard focus.
+   --------------------------------------------------------------------------- */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ---------------------------------------------------------------------------
+   Smaller gutters on phones: 2rem each side left only ~311px of content on a
+   375px screen, which cramped the tables even before the scroll fix.
+   --------------------------------------------------------------------------- */
+@media (max-width: 639px) {
+  main.prose,
+  body > header.mx-auto,
+  body > footer.mx-auto {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}

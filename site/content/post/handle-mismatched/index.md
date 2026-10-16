@@ -113,3 +113,7 @@ Procurement or the designated Buyer is responsible for amending the Purchase Ord
 
 **Can we pay an invoice if the 3-way match fails?**
 Yes, but only through a formal manual override process. This requires documented justification (e.g., email approval from a department head) and attachment of supporting evidence. Regular manual overrides indicate a broken procurement process and should be audited quarterly to identify systemic supplier or internal training issues.
+
+## About Nvnest
+
+Nvnest turns documents into verified data. Upload invoices and business documents — Nvnest extracts the fields you need, shows you exactly where each value came from, and lets your team review before it moves into your workflow. [See how Nvnest works →](https://nvnest.com/)

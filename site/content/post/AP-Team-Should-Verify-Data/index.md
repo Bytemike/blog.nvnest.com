@@ -91,3 +91,7 @@ Source-linked verification connects each extracted value to its exact page and p
 ### How does Nvnest handle uncertain or conflicting data?
 
 Nvnest flags ambiguous fields, such as invoices with multiple conflicting dates, and sends them to a human reviewer for approval. Only verified data is exported to your ERP, CRM, or accounting software.
+
+## About Nvnest
+
+Nvnest turns documents into verified data. Upload invoices and business documents — Nvnest extracts the fields you need, shows you exactly where each value came from, and lets your team review before it moves into your workflow. [See how Nvnest works →](https://nvnest.com/)

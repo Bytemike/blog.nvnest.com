@@ -48,3 +48,7 @@ Source-linked data extraction connects every automated data point directly to it
 
 ### Why is human-in-the-loop review important for invoices?
 Human-in-the-loop review ensures that ambiguous or missing values are flagged for human judgment rather than being guessed by software. This prevents costly errors and maintains the integrity of financial records before data is exported.
+
+## About Nvnest
+
+Nvnest turns documents into verified data. Upload invoices and business documents — Nvnest extracts the fields you need, shows you exactly where each value came from, and lets your team review before it moves into your workflow. [See how Nvnest works →](https://nvnest.com/)

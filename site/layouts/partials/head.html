@@ -19,7 +19,7 @@
 
   <!---->
   {{- if eq .Kind "page" -}}
-  <meta name="description" content="{{- .Summary -}}" />
+  <meta name="description" content="{{- .Description | default .Summary -}}" />
   <meta name="author" content="{{- or .Params.author $site_author -}}" />
   {{- else -}}
   <!---->
@@ -28,6 +28,11 @@
     content="{{- site.Params.description | default (print `A personal blog`) -}}"
   />
   <meta name="author" content="{{- $site_author -}}" />
+  {{- end -}}
+
+  <!-- robots: keep thin tag pages out of the index (GEO/AEO: avoid dilution) -->
+  {{- if and (eq .Kind "term") (le (len .Pages) 1) -}}
+  <meta name="robots" content="noindex, follow" />
   {{- end -}}
 
   <!-- css & js -->
@@ -59,8 +64,8 @@
   {{- end -}}
   <!---->
 
-  <!-- highlight js -->
-  {{- if and .IsPage (not site.Params.disableHLJS) -}}
+  <!-- highlight js (only when the page actually contains a code block) -->
+  {{- if and .IsPage (not site.Params.disableHLJS) (in .RawContent "```") -}}
   <script
     defer
     src="{{- `highlight.min.js` | absURL -}}"
@@ -93,8 +98,6 @@
   {{- if or hugo.IsProduction (eq site.Params.env "production") -}}
   <!---->
   {{- template "_internal/google_analytics.html" . -}}
-  <!---->
-  {{- template "_internal/schema.html" . -}}
   <!---->
   {{- template "_internal/opengraph.html" . -}}
   <!---->
